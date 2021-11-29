@@ -10,6 +10,27 @@ namespace _29Kasim
     {
         static void Main(string[] args)
         {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
         }
+
+    }
+    class Dikdortgen
+    {
+        private int a, b;
+        public Dikdortgen(int a, int b)                                                                                                                                                                                                                                                                                                                                                                                                                                           
+        {
+            this.a = a;
+            this.b = b;
+        }
+        public int AlanHesapla()
+        {
+            return a * b;
+        }
+        public int CevreHesapla()
+        {
+            return 2 * (a + b);
+
+        }
+        
     }
 }
